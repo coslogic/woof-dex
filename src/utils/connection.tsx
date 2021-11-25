@@ -7,9 +7,8 @@ import { ConnectionContextValues, EndpointInfo } from './types';
 
 
 export const endpoints = [
-  { url: 'https://raydium.rpcpool.com', weight: 30 },
-  { url: 'https://solana-api.tt-prod.net', weight: 70 }
-  // { url: 'https://raydium.genesysgo.net', weight: 100 }
+  // { url: 'https://sol-mainnet-rpc.azothzephyr.net', weight: 50 },
+  { url: 'https://ssc-dao.genesysgo.net', weight: 100 }
 ]
 
 export function getRandomEndpoint() {
@@ -35,7 +34,6 @@ export function getRandomEndpoint() {
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet-beta',
-    // endpoint: 'https://solana-api.projectserum.com',
     endpoint: getRandomEndpoint(),
     custom: false,
   },

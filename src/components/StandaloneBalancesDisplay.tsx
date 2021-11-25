@@ -17,7 +17,7 @@ import { useSendConnection } from '../utils/connection';
 import { notify } from '../utils/notifications';
 import { Balances } from '../utils/types';
 import StandaloneTokenAccountsSelect from './StandaloneTokenAccountSelect';
-import logo1 from '../assets/logo1.svg';
+import logo1 from '../assets/logo1.png';
 
 const RowBox = styled(Row)`
   padding-bottom: 20px;
@@ -215,23 +215,21 @@ export default function StandaloneBalancesDisplay() {
         onClose={() => setBaseOrQuote('')}
       />
       <div style={{ textAlign: 'center', paddingTop: 32 }}>
-        <img src={logo1} alt="" />
+        <img src={logo1} alt="" style={{ width: 80 }}/>
         <div style={{ paddingTop: 20, fontSize: 16, color: '#F1F1F2' }}>
           First time trading
         </div>
         <div style={{ fontSize: 16, color: '#F1F1F2' }}>
-          on Raydium?
+          on Solana?
         </div>
         <a
-          href={'https://raydium.gitbook.io/raydium/'}
+          href={'https://woof.gitbook.io/education/'}
           target="_blank"
           rel="noopener noreferrer"
           style={{ color : 'rgb(173,175,184)',}}
         >
         <div style={{ paddingTop: 16, fontSize: 12, color: '#5AC4BE' }}>
-
-            see how it works
-
+            Learn more about DeFi and Solana here.
         </div>
       </a>
       </div>
