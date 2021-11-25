@@ -215,7 +215,7 @@ export default function StandaloneBalancesDisplay() {
         onClose={() => setBaseOrQuote('')}
       />
       <div style={{ textAlign: 'center', paddingTop: 32 }}>
-        <img src={logo1} alt="" style={{ width: 80 }}/>
+        <img src={logo1} alt="" style={{ width: 80, opacity: 0.7}}/>
         <div style={{ paddingTop: 20, fontSize: 16, color: '#F1F1F2' }}>
           First time trading
         </div>

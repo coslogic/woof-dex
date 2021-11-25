@@ -159,7 +159,7 @@ export default function TopBar() {
         <Row wrap={false} style={{ paddingTop: 25, height: 70 }}>
           <Col flex="none">
             <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 40}}>
-              <img src={logo} alt=""/>
+              <img src={logo} alt="" style={{opacity: 0.7}}/>
             </LogoWrapper>
           </Col>
           <Col flex="auto" style={{ textAlign: 'center'}}>
