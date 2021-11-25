@@ -877,7 +877,7 @@ const _SLOW_REFRESH_INTERVAL_NEW = 60 * 1000;
 const _FAST_REFRESH_INTERVAL = 1000;
 
 export const DEFAULT_MARKET = USE_MARKETS.find(
-  ({ name, deprecated }) => name === 'RAY/USDT' && !deprecated,
+  ({ name, deprecated }) => name === 'WOOF/USDC' && !deprecated,
 );
 
 export function getMarketDetails(
@@ -951,7 +951,7 @@ export function MarketProvider({ marketAddress, setMarketAddress, children }) {
 
   const [market, setMarket] = useState<Market | null>();
 
-  const [marketName, setMarketName] = useState('RAY/USDT');
+  const [marketName, setMarketName] = useState('WOOF/USDC');
 
   // Replace existing market with a non-deprecated one on first load
   useEffect(() => {
@@ -960,7 +960,7 @@ export function MarketProvider({ marketAddress, setMarketAddress, children }) {
         console.log('Switching markets from deprecated', marketInfo);
         if (DEFAULT_MARKET) {
           // setMarketAddress(DEFAULT_MARKET.address.toBase58());
-          setMarketAddress('C4z32zw9WKaGPhNuU54ohzrV4CE1Uau3cFx6T8RLjxYC');
+          setMarketAddress('CwK9brJ43MR4BJz2dwnDM7EXCNyHhGqCJDrAdsEts8n5');
         }
       }
     }

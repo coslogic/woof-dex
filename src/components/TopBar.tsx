@@ -1,7 +1,7 @@
 import { Col, Row, Menu } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 import styled from 'styled-components';
 import { ENDPOINTS, useConnectionConfig } from '../utils/connection';
 import CustomClusterEndpointDialog from './CustomClusterEndpointDialog';
@@ -24,7 +24,9 @@ const LogoWrapper = styled.div`
   cursor: pointer;
   img {
     height: 30px;
-    margin-right: 8px;
+    margin: auto;
+    margin-top: 14px;
+    // margin-right: 8px;
   }
 `;
 
@@ -35,50 +37,29 @@ const MENU = [
   },
   {
     'title': 'Swap',
-    'link': 'https://raydium.io/swap/',
+    'link': 'https://dex.woofsolana.com/swap/',
   },
   {
     'title': 'Liquidity',
-    'link': 'https://raydium.io/liquidity/',
+    'link': 'https://dex.woofsolana.com/liquidity/',
   },
   {
     'title': 'Pools',
-    'link': 'https://raydium.io/pools/',
-  },
-  {
-    'title': 'Farms',
-    'link': 'https://raydium.io/farms/',
-  },
-  {
-    'title': 'Staking',
-    'link': 'https://raydium.io/staking/',
-  },
-  {
-    'title': 'AcceleRaytor',
-    'link': 'https://raydium.io/acceleRaytor/',
-  },
-  {
-    'title': 'DropZone',
-    'link': 'https://dropzone.raydium.io/',
+    'link': 'https://dex.woofsolana.com/pools/',
   },
   {
     'title': 'NFTs',
     'child': [
       {
         'title': 'Browse NFTs',
-        'link': 'https://nft.raydium.io/marketplace'
+        'link': 'https://nft.woofsolana.com/marketplace'
       },
       {
         'title': 'Explore Collections',
-        'link': 'https://nft.raydium.io/collections'
+        'link': 'https://nft.woofsolana.com/collections'
       },
     ]
-  },
-  {
-    'title': 'Migrate',
-    'link': 'https://raydium.io/migrate/',
-  },
-  
+  }  
 ]
 
 export default function TopBar() {
@@ -178,7 +159,7 @@ export default function TopBar() {
         <Row wrap={false} style={{ paddingTop: 25, height: 70 }}>
           <Col flex="none">
             <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 40}}>
-              <img src={logo} alt="" style={{ width: 145, height: 40 }} />
+              <img src={logo} alt=""/>
             </LogoWrapper>
           </Col>
           <Col flex="auto" style={{ textAlign: 'center'}}>
