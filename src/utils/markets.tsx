@@ -877,7 +877,7 @@ const _SLOW_REFRESH_INTERVAL_NEW = 60 * 1000;
 const _FAST_REFRESH_INTERVAL = 1000;
 
 export const DEFAULT_MARKET = USE_MARKETS.find(
-  ({ name, deprecated }) => name === 'RAY/USDT' && !deprecated,
+  ({ name, deprecated }) => name === 'WOOF/USDC' && !deprecated,
 );
 
 export function getMarketDetails(
