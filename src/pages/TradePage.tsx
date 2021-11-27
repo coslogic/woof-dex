@@ -251,8 +251,12 @@ function MarketSelector({
     <Select
       showSearch
       size={'large'}
-      bordered={false}
-      style={{ width: 360, border: 1 }}
+      bordered={true}
+      style={{
+        width: 360,
+        marginTop: 10,
+        border: 1
+      }}
       placeholder={placeholder || 'Select a market'}
       optionFilterProp="name"
       onSelect={onSetMarketAddress}
