@@ -41,11 +41,16 @@ const MENU = [
   },
   {
     'title': 'Liquidity',
-    'link': 'https://dex.woofsolana.com/liquidity/',
-  },
-  {
-    'title': 'Pools',
-    'link': 'https://dex.woofsolana.com/pools/',
+    'child': [
+      {
+        'title': 'Pools',
+        'link': 'https://dex.woofsolana.com/pools/',
+      },
+      {
+        'title': 'Add Liquidity',
+        'link': 'https://dex.woofsolana.com/liquidity/',
+      },
+    ]
   },
   // {
   //   'title': 'NFTs',
