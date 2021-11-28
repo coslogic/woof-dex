@@ -23,7 +23,9 @@ export default function PublicTrades({ smallScreen }) {
       style={
         {
           ...(smallScreen
-            ? { flex: 1 }
+            ? { flex: 1,
+                marginLeft: '25px'
+               }
             : {
               // marginTop: '10px',
               minHeight: '400px',
