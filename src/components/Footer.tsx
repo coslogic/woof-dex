@@ -24,6 +24,7 @@ export const CustomFooter = () => {
         height: '45px',
         paddingBottom: 10,
         paddingTop: 10,
+        background: 'transparent',
       }}
     >
       <Row align="middle" gutter={[16, 4]}>

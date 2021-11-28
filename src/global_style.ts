@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 html,body{
-  background: RGB(15,20,41,1);
+  background: linear-gradient(180deg, #11042C 0%, #3F1040 100%);
 }
 input[type=number]::-webkit-inner-spin-button {
   opacity: 0;
@@ -28,19 +28,19 @@ input[type=number]:focus::-webkit-inner-spin-button {
   background: #5b5f67;
 }
 .ant-slider-track, .ant-slider:hover .ant-slider-track {
-  background-color: #2abdd2;
+  background-color: #06FCB2;
   opacity: 0.75;
 }
 .ant-slider-track,
 .ant-slider ant-slider-track:hover {
-  background-color: #2abdd2;
+  background-color: #06FCB2;
   opacity: 0.75;
 }
 .ant-slider-dot-active,
 .ant-slider-handle,
 .ant-slider-handle-click-focused,
 .ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open)  {
-  border: 2px solid #2abdd2; 
+  border: 2px solid #06FCB2; 
 }
 .ant-table-tbody > tr.ant-table-row:hover > td {
   background: #273043;
@@ -55,7 +55,7 @@ input[type=number]:focus::-webkit-inner-spin-button {
   border-top: 1px solid #434a59 !important;
 }
 .ant-layout {
-    background: #0F1429
+    background: linear-gradient(180deg, #11042C 0%, #3F1040 100%);
   }
   .ant-table {
     background: #212734;
@@ -73,15 +73,15 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 
 @-webkit-keyframes highlight {
-  from { background-color: #2abdd2;}
+  from { background-color: #06FCB2;}
   to {background-color: #1A2029;}
 }
 @-moz-keyframes highlight {
-  from { background-color: #2abdd2;}
+  from { background-color: #06FCB2;}
   to {background-color: #1A2029;}
 }
 @-keyframes highlight {
-  from { background-color: #2abdd2;}
+  from { background-color: #06FCB2;}
   to {background-color: #1A2029;}
 }
 .flash {
