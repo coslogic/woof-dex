@@ -47,19 +47,19 @@ const MENU = [
     'title': 'Pools',
     'link': 'https://dex.woofsolana.com/pools/',
   },
-  {
-    'title': 'NFTs',
-    'child': [
-      {
-        'title': 'Browse NFTs',
-        'link': 'https://nft.woofsolana.com/marketplace'
-      },
-      {
-        'title': 'Explore Collections',
-        'link': 'https://nft.woofsolana.com/collections'
-      },
-    ]
-  }  
+  // {
+  //   'title': 'NFTs',
+  //   'child': [
+  //     {
+  //       'title': 'Browse NFTs',
+  //       'link': 'https://nft.woofsolana.com/marketplace'
+  //     },
+  //     {
+  //       'title': 'Explore Collections',
+  //       'link': 'https://nft.woofsolana.com/collections'
+  //     },
+  //   ]
+  // }  
 ]
 
 export default function TopBar() {
