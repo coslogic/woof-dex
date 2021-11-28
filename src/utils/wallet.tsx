@@ -24,6 +24,12 @@ const ASSET_URL =
   'https://cdn.jsdelivr.net/gh/solana-labs/oyster@main/assets/wallets';
 export const WALLET_PROVIDERS = [
   {
+    name: 'Phantom',
+    url: 'https://www.phantom.app',
+    icon: `https://www.phantom.app/img/logo.png`,
+    adapter: PhantomWalletAdapter,
+  },
+  {
     name: 'sollet.io',
     url: 'https://www.sollet.io',
     icon: `${ASSET_URL}/sollet.svg`,
@@ -50,12 +56,6 @@ export const WALLET_PROVIDERS = [
     url: 'https://solflare.com',
     icon: `${ASSET_URL}/solflare.svg`,
     adapter: SolflareExtensionWalletAdapter,
-  },
-  {
-    name: 'Phantom',
-    url: 'https://www.phantom.app',
-    icon: `https://www.phantom.app/img/logo.png`,
-    adapter: PhantomWalletAdapter,
   },
   {
     name: 'MathWallet',

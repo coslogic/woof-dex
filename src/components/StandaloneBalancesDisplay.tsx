@@ -129,7 +129,7 @@ export default function StandaloneBalancesDisplay() {
     ],
   ];
   return (
-    <FloatingElement style={{ flex: 1, paddingTop: 9 }}>
+    <FloatingElement style={{ flex: 1, paddingTop: 9, marginLeft: "25px" }}>
       <div
        style={{
          width: '100%',
