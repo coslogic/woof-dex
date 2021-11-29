@@ -21,7 +21,7 @@ export default function Index() {
             width: '50%',
             textAlign: 'center',
             border: 'transparent',
-            borderBottom: activeKeyStr === 'orders' ? '2px solid #5AC4BE' : '',
+            borderBottom: activeKeyStr === 'orders' ? '2px solid #06FCB2' : '',
             background: 'transparent',
             fontSize: 14,
             fontStyle: 'normal',
@@ -29,8 +29,10 @@ export default function Index() {
             color:
               activeKeyStr === 'orders'
                 ? '#F1F1F2'
-                : 'rgba(241, 241, 242, 0.5)',
+                : // : 'rgba(241, 241, 242, 0.5)',
+                  '#06FCB2',
             padding: '12px 0 12px',
+            opacity: activeKeyStr === 'orders' ? 1 : 0.8,
           }}
         >
           Open Orders
@@ -43,14 +45,14 @@ export default function Index() {
             width: '50%',
             textAlign: 'center',
             border: 'transparent',
-            borderBottom: activeKeyStr === 'fills' ? '2px solid #5AC4BE' : '',
+            borderBottom: activeKeyStr === 'fills' ? '2px solid #06FCB2' : '',
             background: 'transparent',
             fontSize: 14,
             fontStyle: 'normal',
             fontWeight: 600,
-            color:
-              activeKeyStr === 'fills' ? '#F1F1F2' : 'rgba(241, 241, 242, 0.5)',
+            color: activeKeyStr === 'fills' ? '#F1F1F2' : '#06FCB2',
             padding: '12px 0 12px',
+            opacity: activeKeyStr === 'fills' ? 1 : 0.8,
           }}
         >
           Recent Trade History
@@ -64,16 +66,14 @@ export default function Index() {
             textAlign: 'center',
             border: 'transparent',
             borderBottom:
-              activeKeyStr === 'balances' ? '2px solid #5AC4BE' : '',
+              activeKeyStr === 'balances' ? '2px solid #06FCB2' : '',
             background: 'transparent',
             fontSize: 14,
             fontStyle: 'normal',
             fontWeight: 600,
-            color:
-              activeKeyStr === 'balances'
-                ? '#F1F1F2'
-                : 'rgba(241, 241, 242, 0.5)',
+            color: activeKeyStr === 'balances' ? '#F1F1F2' : '#06FCB2',
             padding: '12px 0 12px',
+            opacity: activeKeyStr === 'balances' ? 1 : 0.8,
           }}
         >
           Balances
@@ -87,16 +87,14 @@ export default function Index() {
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: activeKeyStr === 'fees' ? '2px solid #5AC4BE' : '',
+              borderBottom: activeKeyStr === 'fees' ? '2px solid #06FCB2' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color:
-                activeKeyStr === 'fees'
-                  ? '#F1F1F2'
-                  : 'rgba(241, 241, 242, 0.5)',
+              color: activeKeyStr === 'fees' ? '#F1F1F2' : '#06FCB2',
               padding: '12px 0 12px',
+              opacity: activeKeyStr === 'fees' ? 1 : 0.8,
             }}
           >
             Fee Discounts

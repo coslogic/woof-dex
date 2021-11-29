@@ -61,7 +61,8 @@ export default function FillsTable() {
                     span={4}
                     style={{
                       textAlign: 'right',
-                      color: 'rgba(90, 196, 190, 1)',
+                      // color: 'rgba(90, 196, 190, 1)',
+                      color: '#06FCB2',
                     }}
                   >
                     {side}
@@ -70,7 +71,8 @@ export default function FillsTable() {
                     span={4}
                     style={{
                       textAlign: 'right',
-                      color: 'rgba(90, 196, 190, 1)',
+                      // color: 'rgba(90, 196, 190, 1)',
+                      color: '#06FCB2',
                     }}
                   >
                     {size}

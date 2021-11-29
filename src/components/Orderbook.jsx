@@ -130,7 +130,8 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           span={12}
           style={{
             textAlign: 'right',
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#06FCB2',
+            opacity: 0.5,
             fontSize: 12,
           }}
         >
@@ -141,7 +142,8 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           style={{
             textAlign: 'right',
             paddingRight: 20,
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#06FCB2',
+            opacity: 0.5,
             fontSize: 12,
           }}
         >
@@ -167,7 +169,8 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           span={12}
           style={{
             textAlign: 'right',
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#06FCB2',
+            opacity: 0.5,
             fontSize: 12,
           }}
         >
@@ -178,7 +181,8 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           style={{
             textAlign: 'right',
             paddingRight: 20,
-            color: 'rgba(241, 241, 242, 0.5)',
+            color: '#06FCB2',
+            opacity: 0.5,
             fontSize: 12,
           }}
         >

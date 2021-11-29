@@ -311,12 +311,13 @@ export default function TradeForm({
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: side === 'buy' ? '2px solid #5AC4BE' : '2px solid #1C274F',
+              borderBottom: side === 'buy' ? '2px solid #06FCB2' : '2px solid #1C274F',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'buy' ? '#F1F1F2' : 'rgba(241, 241, 242, 0.5)',
+              color: side === 'buy' ? '#F1F1F2' : '#06FCB2',
+              opacity: side === 'buy' ? 1 : 0.6,
               padding: '12px 0 0 0'
             }}
           >
@@ -330,12 +331,13 @@ export default function TradeForm({
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: side === 'sell' ? '2px solid #5AC4BE' : '2px solid #1C274F',
+              borderBottom: side === 'sell' ? '2px solid #06FCB2' : '2px solid #1C274F',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'sell' ? '#F1F1F2' : 'rgba(241, 241, 242, 0.5)',
+              color: side === 'buy' ? '#F1F1F2' : '#06FCB2',
+              opacity: side === 'buy' ? 1 : 0.6,
               padding: '12px 0 0 0'
             }}
           >
@@ -455,8 +457,9 @@ export default function TradeForm({
             style={{
               marginTop: 20,
               height: 41,
-              background: 'rgba(90, 196, 190, 0.1)',
-              border: '1px solid #5AC4BE',
+              background: 'rgba(90, 196, 190, 0.3)',
+              border: '1px solid #06FCB2',
+              opacity: 0.5,
               borderRadius: 4,
             }}
           >
