@@ -276,7 +276,7 @@ function MarketSelector({
               style={{
                 padding: '10px',
                 // @ts-ignore
-                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : null,
+                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : '#11042C',
               }}
             >
               <Row>
@@ -307,7 +307,8 @@ function MarketSelector({
               style={{
                 padding: '10px',
                 // @ts-ignore
-                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : null,
+                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : '#11042C',
+                opacity: 0.8,
               }}
             >
               {name} {deprecated ? ' (Deprecated)' : null}

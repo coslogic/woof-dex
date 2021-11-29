@@ -318,8 +318,8 @@ export default function TradeForm({
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'buy' ? '#F1F1F2' : '#06FCB2',
-              opacity: side === 'buy' ? 1 : 0.6,
+              color: side === 'buy' ? '#06FCB2' : '#F1F1F2',
+              opacity: side === 'buy' ? 0.8 : .6,
               padding: '12px 0 0 0'
             }}
           >
@@ -338,8 +338,8 @@ export default function TradeForm({
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'buy' ? '#F1F1F2' : '#06FCB2',
-              opacity: side === 'buy' ? 1 : 0.6,
+              color: side === 'sell' ? '#06FCB2' : '#F1F1F2',
+              opacity: side === 'sell' ? 0.8 : .6,
               padding: '12px 0 0 0'
             }}
           >
@@ -416,7 +416,7 @@ export default function TradeForm({
           <Row style={{ paddingTop: 8}}>
             <Col span={12}>
               <Slider
-                style={{ width: '80%' }}
+                style={{ width: '80%', opacity: 0.8 }}
                 value={sizeFraction}
                 tipFormatter={(value) => `${value}%`}
                 marks={sliderMarks}

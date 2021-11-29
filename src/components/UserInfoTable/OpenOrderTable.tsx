@@ -72,15 +72,15 @@ export default function OpenOrderTable({
     <Row>
       <Col span={24}>
         <Row style={{fontSize: 14, color: '#06FCB2', opacity: 0.5, paddingBottom: 16 }}>
-          <Col span={5} style={{textAlign: 'left' }}>Market</Col>
-          <Col span={5} style={{textAlign: 'right' }}>Side</Col>
-          <Col span={5} style={{textAlign: 'right' }}>Size</Col>
-          <Col span={5} style={{textAlign: 'right' }}>Price</Col>
-          <Col span={4} style={{textAlign: 'right' }}> </Col>
+          <Col span={5} style={{textAlign: 'left', fontWeight: 'bold', textDecorationLine: 'underline' }}>Market</Col>
+          <Col span={5} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}>Side</Col>
+          <Col span={5} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}>Size</Col>
+          <Col span={5} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}>Price</Col>
+          <Col span={4} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}> </Col>
         </Row>
         <div style={{ height: 350, overflowX: 'hidden' }}>
           {dataSource.map(({marketName, side, size, price, orderId }, i) => (
-            <Row className="show-grid" key={i} style={{fontSize: 14, color: '#06FCB2', paddingBottom: 16 }}>
+            <Row key={i} style={{fontSize: 14, color: '#06FCB2', paddingBottom: 16 }}>
               <Col span={5} style={{ textAlign: 'left' }}>{marketName}</Col>
               {/* <Col span={5} style={{ textAlign: 'right', color: 'rgba(90, 196, 190, 1)' }}>{side}</Col>
               <Col span={5} style={{ textAlign: 'right', color: 'rgba(90, 196, 190, 1)' }}>{size}</Col>

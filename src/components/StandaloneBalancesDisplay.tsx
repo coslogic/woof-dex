@@ -230,7 +230,7 @@ export default function StandaloneBalancesDisplay() {
           rel="noopener noreferrer"
           style={{ color : 'rgb(173,175,184)',}}
         >
-        <div style={{ paddingTop: 16, fontSize: 12, color: '#06FCB2' }}>
+        <div style={{ paddingTop: 16, fontSize: 12, color: '#06FCB2', opacity: 0.8}}>
             Learn more about DeFi and Solana here.
         </div>
       </a>
