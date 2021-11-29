@@ -299,6 +299,8 @@ export default function TradeForm({
   // @ts-ignore
   return (
     <FloatingElement
+    // TODO: background
+    // style={{ display: 'flex', flexDirection: 'column', background: 'rgba(90, 196, 190, 0.1)',...style }}
       style={{ display: 'flex', flexDirection: 'column', ...style }}
     >
       <div style={{ flex: 1 }}>
