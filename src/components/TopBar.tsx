@@ -13,7 +13,7 @@ import { getTradePageUrl } from '../utils/markets';
 
 const Wrapper = styled.div`
   // flex-direction: row;
-  // justify-content: flex-end;
+  justify-content: flex-end;
   // flex-wrap: wrap;
 `;
 const LogoWrapper = styled.div`
@@ -146,7 +146,7 @@ export default function TopBar() {
         return <Menu.Item key={item.title}><a href={item.link} target={item.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{item.title}</a></Menu.Item>
       } else {
         return <SubMenu key={item.title} title={item.title}>
-          {item.child.map(itemChild => <Menu.Item key={itemChild.title}><a href={itemChild.link} target={itemChild.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{itemChild.title}</a></Menu.Item>)}
+          {item.child.map(itemChild => <Menu.Item style={{background: "#11042C"}} key={itemChild.title}><a href={itemChild.link} target={itemChild.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{itemChild.title}</a></Menu.Item>)}
         </SubMenu>
       }
     }
@@ -168,7 +168,7 @@ export default function TopBar() {
               <img src={logo} alt="" style={{opacity: 0.7}}/>
             </LogoWrapper>
           </Col>
-          <Col flex="auto" style={{ textAlign: 'center'}}>
+          <Col flex="auto" style={{ textAlign: 'center', background: "transparent"}}>
             {menuDiv}
           </Col>
           <Col flex="none" style={{ paddingRight: 20}}>

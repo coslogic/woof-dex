@@ -11,7 +11,6 @@ import { OrderWithMarketAndMarketName } from '../../utils/types';
 const CancelButton = styled(Button)`
   color: rgba(241, 241, 242, 1);
   // border: 1px solid rgba(194, 0, 251, 0.1);
-  border: 1px solid #C200FB;
   border-radius: 4px;
   width: 65px;
   height: 20px;
@@ -72,7 +71,7 @@ export default function OpenOrderTable({
   return (
     <Row>
       <Col span={24}>
-        <Row className="show-grid" style={{fontSize: 14, color: '#06FCB2', opacity: 0.5, paddingBottom: 16 }}>
+        <Row style={{fontSize: 14, color: '#06FCB2', opacity: 0.5, paddingBottom: 16 }}>
           <Col span={5} style={{textAlign: 'left' }}>Market</Col>
           <Col span={5} style={{textAlign: 'right' }}>Side</Col>
           <Col span={5} style={{textAlign: 'right' }}>Size</Col>

@@ -72,6 +72,10 @@ input[type=number]:focus::-webkit-inner-spin-button {
   background-color: #212734;
 }
 
+.ant-menu-item-selected a {
+  opacity: 0.8;
+}
+
 @-webkit-keyframes highlight {
   from { background-color: #06FCB2;}
   to {background-color: #1A2029;}

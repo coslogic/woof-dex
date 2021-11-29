@@ -50,7 +50,7 @@ export default function FillsTable() {
                   key={i}
                   style={{
                     fontSize: 14,
-                    color: 'rgba(241, 241, 242, 1)',
+                    color: '#06FCB2',
                     paddingBottom: 16,
                   }}
                 >

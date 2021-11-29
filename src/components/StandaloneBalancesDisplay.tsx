@@ -166,7 +166,7 @@ export default function StandaloneBalancesDisplay() {
               <Row style={{
                 marginTop: 16,
                 fontSize: 12,
-                color: 'rgba(241, 241, 242, 1)',
+                color: '#06FCB2',
                 textAlign: 'right',
                 borderBottom: '1px solid #1C274F',
                 paddingBottom: 18,
