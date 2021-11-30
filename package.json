@@ -2,7 +2,7 @@
   "name": "woofswap-dex-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dex.woofsolana.com/",
+  "homepage": "https://dex.woofsolana.io/",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@craco/craco": "^5.6.4",

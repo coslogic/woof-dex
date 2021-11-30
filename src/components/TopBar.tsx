@@ -38,18 +38,18 @@ const MENU = [
   },
   {
     'title': 'Swap',
-    'link': 'https://dex.woofsolana.com/swap/',
+    'link': 'https://dex.woofsolana.io/swap/',
   },
   {
     'title': 'Liquidity',
     'child': [
       {
         'title': 'Pools',
-        'link': 'https://dex.woofsolana.com/pools/',
+        'link': 'https://swap.woofsolana.io/pools/',
       },
       {
         'title': 'Add Liquidity',
-        'link': 'https://dex.woofsolana.com/liquidity/',
+        'link': 'https://swap.woofsolana.io/liquidity/',
       },
     ]
   },
@@ -58,11 +58,11 @@ const MENU = [
   //   'child': [
   //     {
   //       'title': 'Browse NFTs',
-  //       'link': 'https://nft.woofsolana.com/marketplace'
+  //       'link': 'https://nft.woofsolana.io/marketplace'
   //     },
   //     {
   //       'title': 'Explore Collections',
-  //       'link': 'https://nft.woofsolana.com/collections'
+  //       'link': 'https://nft.woofsolana.io/collections'
   //     },
   //   ]
   // }  
