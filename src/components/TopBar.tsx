@@ -38,7 +38,7 @@ const MENU = [
   },
   {
     'title': 'Swap',
-    'link': 'https://dex.woofsolana.io/swap/',
+    'link': 'https://swap.woofsolana.io/swap/',
   },
   {
     'title': 'Liquidity',
