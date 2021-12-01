@@ -34,7 +34,7 @@ const LogoWrapper = styled.div`
 const MENU = [
    {
     'title': 'Trading',
-    'link': '/',
+    'link': 'https://dex.woofsolana.io',
   },
   {
     'title': 'Swap',
