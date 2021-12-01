@@ -17,7 +17,7 @@ import { useSendConnection } from '../utils/connection';
 import { notify } from '../utils/notifications';
 import { Balances } from '../utils/types';
 import StandaloneTokenAccountsSelect from './StandaloneTokenAccountSelect';
-import logo1 from '../assets/logo1.png';
+import logo1 from '../assets/logo1.svg';
 
 const RowBox = styled(Row)`
   padding-bottom: 20px;
@@ -217,7 +217,7 @@ export default function StandaloneBalancesDisplay() {
         onClose={() => setBaseOrQuote('')}
       />
       <div style={{ textAlign: 'center', paddingTop: 32 }}>
-        <img src={logo1} alt="" style={{ width: 80, opacity: 0.7}}/>
+        <img src={logo1} alt="" style={{ width: 80, opacity: 0.7, marginTop: "auto"}}/>
         <div style={{ paddingTop: 20, fontSize: 16, color: '#F1F1F2' }}>
           First time trading
         </div>
