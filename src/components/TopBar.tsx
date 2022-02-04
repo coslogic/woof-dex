@@ -19,7 +19,6 @@ const Wrapper = styled.div`
 const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
-  // color: linear-gradient(180deg, #11042C 0%, #3F1040 100%);
   background: transparent;
   font-weight: bold;
   cursor: pointer;
@@ -33,15 +32,15 @@ const LogoWrapper = styled.div`
 
 const MENU = [
    {
-    'title': 'Trading',
+    'title': 'TRADE',
     'link': 'https://dex.woofsolana.io',
   },
   {
-    'title': 'Swap',
+    'title': 'SWAP',
     'link': 'https://swap.woofsolana.io/swap/',
   },
   {
-    'title': 'Liquidity',
+    'title': 'LIQUIDITY',
     'child': [
       {
         'title': 'Pools',
@@ -146,7 +145,7 @@ export default function TopBar() {
         return <Menu.Item key={item.title}><a href={item.link} target={item.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{item.title}</a></Menu.Item>
       } else {
         return <SubMenu key={item.title} title={item.title}>
-          {item.child.map(itemChild => <Menu.Item style={{background: "#11042C"}} key={itemChild.title}><a href={itemChild.link} target={itemChild.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{itemChild.title}</a></Menu.Item>)}
+          {item.child.map(itemChild => <Menu.Item style={{background: "rgb(35, 35, 35)"}} key={itemChild.title}><a href={itemChild.link} target={itemChild.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{itemChild.title}</a></Menu.Item>)}
         </SubMenu>
       }
     }
@@ -162,7 +161,7 @@ export default function TopBar() {
         onClose={() => setAddEndpointVisible(false)}
       />
       <Wrapper>
-        <Row wrap={false} style={{ paddingTop: 25, height: 70 }}>
+        <Row wrap={false} style={{ paddingTop: 4, height: 60 }}>
           <Col flex="none">
             <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 40}}>
               <img src={logo} alt="" style={{opacity: 0.7}}/>

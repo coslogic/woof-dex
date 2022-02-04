@@ -10,7 +10,6 @@ import { OrderWithMarketAndMarketName } from '../../utils/types';
 
 const CancelButton = styled(Button)`
   color: rgba(241, 241, 242, 1);
-  // border: 1px solid rgba(194, 0, 251, 0.1);
   border-radius: 4px;
   width: 65px;
   height: 20px;
@@ -78,7 +77,7 @@ export default function OpenOrderTable({
           <Col span={5} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}>Price</Col>
           <Col span={4} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}> </Col>
         </Row>
-        <div style={{ height: 350, overflowX: 'hidden' }}>
+        <div style={{ height: 250, overflowX: 'hidden' }}>
           {dataSource.map(({marketName, side, size, price, orderId }, i) => (
             <Row key={i} style={{fontSize: 14, color: '#06FCB2', paddingBottom: 16 }}>
               <Col span={5} style={{ textAlign: 'left' }}>{marketName}</Col>

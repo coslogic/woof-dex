@@ -317,6 +317,7 @@ export default function TradeForm({
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
+              cursor: "pointer",
               fontWeight: 600,
               color: side === 'buy' ? '#06FCB2' : '#F1F1F2',
               opacity: side === 'buy' ? 0.8 : .6,
@@ -337,6 +338,7 @@ export default function TradeForm({
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
+              cursor: "pointer",
               fontWeight: 600,
               color: side === 'sell' ? '#06FCB2' : '#F1F1F2',
               opacity: side === 'sell' ? 0.8 : .6,
@@ -359,7 +361,7 @@ export default function TradeForm({
               height: 47,
               left: 0,
               top: 0,
-              background: '#1C274F',
+              background: '#232323',
               borderRadius: 4,
               paddingTop: 5,
               fontSize: 14
@@ -373,7 +375,7 @@ export default function TradeForm({
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#1C274F', borderRadius: 4, }}
+              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#232323', borderRadius: 4, }}
               suffix={
                 <span style={{ fontSize: 10, opacity: 0.5 }}>{quoteCurrency}</span>
               }
@@ -388,7 +390,7 @@ export default function TradeForm({
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#1C274F', borderRadius: 4, }}
+              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#232323', borderRadius: 4, }}
               suffix={
                 <span style={{ fontSize: 10, opacity: 0.5 }}>{baseCurrency}</span>
               }
@@ -403,7 +405,7 @@ export default function TradeForm({
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#1C274F', borderRadius: 4, }}
+              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#232323', borderRadius: 4, }}
               suffix={
                 <span style={{ fontSize: 10, opacity: 0.5 }}>{quoteCurrency}</span>
               }

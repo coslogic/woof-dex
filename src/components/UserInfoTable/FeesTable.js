@@ -43,7 +43,7 @@ export default function FeesTable() {
               Mint
             </Col>
           </Row>
-          <div style={{ height: 350, overflowX: 'hidden' }}>
+          <div style={{ height: 250, overflowX: 'hidden' }}>
             {dataSource.map(({ mint, balance, pubkey, feeTier }, index) => (
               <Row
                 key={index}

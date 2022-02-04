@@ -28,7 +28,7 @@ export default function PublicTrades({ smallScreen }) {
                }
             : {
               // marginTop: '10px',
-              minHeight: '400px',
+              minHeight: '300px',
               maxHeight: 'calc(100vh - 700px)',
             }),
         }
@@ -38,7 +38,7 @@ export default function PublicTrades({ smallScreen }) {
         style={{
           color: 'rgba(241, 241, 242, 0.75)',
           fontSize: 14,
-          borderBottom: '1px solid #1C274F',
+          borderBottom: '1px solid #232323',
           padding: '12px 0 12px 16px',
         }}
       >Recent Market trades</Title>
@@ -60,7 +60,7 @@ export default function PublicTrades({ smallScreen }) {
             // maxHeight: smallScreen
             //   ? 'calc(100% - 75px)'
             //   : 'calc(100vh - 800px)',
-            height: 350
+            height: 250
           }}
         >
           {trades.map((trade: TradeLayout, i: number) => (
