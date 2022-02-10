@@ -275,7 +275,7 @@ export const TOKENS: Tokens = {
     name: 'USDT',
     mintAddress: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
     decimals: 6,
-    referrer: 'GWXHJbNua7f4D2Jum1wGwh8JGGxNecyPPkTuZARLDqsD',
+    referrer: 'DgUVPq8kgwhA4Li3PSWvtnUB1hmsHxMzefDHUAV3As1o',
   },
   WUSDT: {
     symbol: 'WUSDT',
@@ -289,7 +289,7 @@ export const TOKENS: Tokens = {
     name: 'USDC',
     mintAddress: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
     decimals: 6,
-    referrer: 'fug97XioNqCJVGEAZahVTbrZ193ap4qrkgWHriRnior',
+    referrer: 'DjZee1YF4ZUSDuz6YvybfHqxuXu6M4JiTt35HjRjiJG2',
   },
   WUSDC: {
     symbol: 'WUSDC',
