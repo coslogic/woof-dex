@@ -25,8 +25,8 @@ import {getUnixTs, placeOrder} from '../utils/send';
 
 const BuyButton = styled(Button)`
   margin: 20px 0px 0px 0px;
-  background: #02bf76;
-  border-color: #02bf76;
+  background: #A21CAF;
+  border-radius: 0.5rem;
 `;
 
 const sliderMarks = {
@@ -321,7 +321,8 @@ export default function TradeForm({
               fontWeight: 600,
               color: side === 'buy' ? '#06FCB2' : '#F1F1F2',
               opacity: side === 'buy' ? 0.8 : .6,
-              padding: '12px 0 0 0'
+              padding: '12px 0 0 0',
+              margin: '12px 0 0 0'
             }}
           >
             BUY

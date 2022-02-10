@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 html,body{
-  background-color: #0C0C0C;
+  background-color: #16171A;
 }
 input[type=number]::-webkit-inner-spin-button {
   opacity: 0;
@@ -56,7 +56,7 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 
 .ant-layout {
-  background-color: #0C0C0C;;
+  background-color: #16171A;
   }
   .ant-table {
     background: #212734;

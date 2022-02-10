@@ -1,7 +1,8 @@
 import { Col, Row, Menu } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo1.svg';
+import logo2 from '../assets/logo.svg';
 import styled from 'styled-components';
 import { ENDPOINTS, useConnectionConfig } from '../utils/connection';
 import CustomClusterEndpointDialog from './CustomClusterEndpointDialog';
@@ -39,6 +40,10 @@ const MENU = [
     'title': 'SWAP',
     'link': 'https://swap.woofsolana.io/swap/',
   },
+/*   {
+    'title': 'DASHBOARD',
+    'link': '/',
+  }, */
   {
     'title': 'LIQUIDITY',
     'child': [
@@ -164,7 +169,8 @@ export default function TopBar() {
         <Row wrap={false} style={{ paddingTop: 4, height: 60 }}>
           <Col flex="none">
             <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 40}}>
-              <img src={logo} alt="" style={{opacity: 0.7}}/>
+              <img src={logo} alt="" style={{opacity: 1 }}/>
+              <img src={logo2} alt="" style={{opacity: 1, paddingLeft: 10 }}/>
             </LogoWrapper>
           </Col>
           <Col flex="auto" style={{ textAlign: 'center', background: "transparent"}}>

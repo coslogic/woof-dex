@@ -163,7 +163,7 @@ function TradePageInner() {
         <Row
           align="middle"
           style={{ paddingLeft: 5, paddingRight: 5, height: 64 }}
-          gutter={16}
+          gutter={32}
         >
           <Col>
             <MarketSelector
