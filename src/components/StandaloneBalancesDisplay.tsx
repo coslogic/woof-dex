@@ -134,7 +134,7 @@ export default function StandaloneBalancesDisplay() {
       <div
        style={{
          width: '100%',
-         borderBottom: '1px solid #1C274F',
+         borderBottom: '1px solid #232323',
          fontSize: 14,
          paddingBottom: 12,
 
@@ -168,7 +168,7 @@ export default function StandaloneBalancesDisplay() {
                 fontSize: 12,
                 color: '#06FCB2',
                 textAlign: 'right',
-                borderBottom: '1px solid #1C274F',
+                borderBottom: '1px solid #232323',
                 paddingBottom: 18,
               }}>
                 <Col span={6} style={{ color: '#06FCB2', opacity: .6, textAlign: 'left' }}>
@@ -231,7 +231,7 @@ export default function StandaloneBalancesDisplay() {
           style={{ color : 'rgb(173,175,184)',}}
         >
         <div style={{ paddingTop: 16, fontSize: 12, color: '#06FCB2', opacity: 0.8}}>
-            Learn more about DeFi and Solana here.
+            Learn more about WOOF here.
         </div>
       </a>
       </div>

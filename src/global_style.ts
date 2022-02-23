@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 html,body{
-  background: linear-gradient(180deg, #11042C 0%, #3F1040 100%);
+  background-color: #16171A;
 }
 input[type=number]::-webkit-inner-spin-button {
   opacity: 0;
@@ -40,7 +40,7 @@ input[type=number]:focus::-webkit-inner-spin-button {
 .ant-slider-handle,
 .ant-slider-handle-click-focused,
 .ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open)  {
-  border: 2px solid #06FCB2; 
+  border: 1px solid #06FCB2; 
 }
 .ant-table-tbody > tr.ant-table-row:hover > td {
   background: #273043;
@@ -54,8 +54,9 @@ input[type=number]:focus::-webkit-inner-spin-button {
 .ant-divider-horizontal.ant-divider-with-text::before, .ant-divider-horizontal.ant-divider-with-text::after {
   border-top: 1px solid #434a59 !important;
 }
+
 .ant-layout {
-    background: linear-gradient(180deg, #11042C 0%, #3F1040 100%);
+  background-color: #16171A;
   }
   .ant-table {
     background: #212734;
@@ -73,7 +74,11 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 
 .ant-menu-item-selected a {
-  opacity: 0.8;
+  opacity: 1;
+}
+
+.ant-menu-horizontal {
+  border-bottom: 0;
 }
 
 @-webkit-keyframes highlight {

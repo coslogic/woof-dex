@@ -43,7 +43,7 @@ export default function FillsTable() {
               {quoteCurrency ? `Fees (${quoteCurrency})` : 'Fees'}
             </Col>
           </Row>
-          <div style={{ height: 350, overflowX: 'hidden' }}>
+          <div style={{ height: 250, overflowX: 'hidden' }}>
             {dataSource.map(
               ({ marketName, side, size, price, liquidity, feeCost }, i) => (
                 <Row

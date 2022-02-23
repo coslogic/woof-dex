@@ -86,7 +86,7 @@ export default function BalancesTable({
           Action
         </Col>
       </Row>
-      <div style={{ height: 350, overflowX: 'hidden' }}>
+      <div style={{ height: 250, overflowX: 'hidden' }}>
         {balances.map(
           (
             { marketName, coin, wallet, orders, unsettled, market, openOrders },

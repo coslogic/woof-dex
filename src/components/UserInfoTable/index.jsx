@@ -11,7 +11,7 @@ export default function Index() {
   const { market } = useMarket();
   const [activeKeyStr, setActiveKeyStr] = useState('orders');
   return (
-    <FloatingElement style={{ flex: 1, paddingTop: 40 }}>
+    <FloatingElement style={{ flex: 1, paddingTop: 20, margin: 20 }}>
       <Row>
         <Col
           span={24 / (market && market.supportsSrmFeeDiscounts ? 4 : 3)}
@@ -25,6 +25,7 @@ export default function Index() {
             background: 'transparent',
             fontSize: 14,
             fontStyle: 'normal',
+            cursor: 'pointer',
             fontWeight: 600,
             color:
               activeKeyStr === 'orders'
@@ -45,9 +46,10 @@ export default function Index() {
             width: '50%',
             textAlign: 'center',
             border: 'transparent',
-            borderBottom: activeKeyStr === 'fills' ? '2px solid #06FCB2' : '',
+            borderBottom: activeKeyStr === 'fills' ? '2px solid #232323' : '',
             background: 'transparent',
             fontSize: 14,
+            cursor: 'pointer',
             fontStyle: 'normal',
             fontWeight: 600,
             color: activeKeyStr === 'fills' ? '#F1F1F2' : '#06FCB2',
@@ -66,9 +68,10 @@ export default function Index() {
             textAlign: 'center',
             border: 'transparent',
             borderBottom:
-              activeKeyStr === 'balances' ? '2px solid #06FCB2' : '',
+              activeKeyStr === 'balances' ? '2px solid #232323' : '',
             background: 'transparent',
             fontSize: 14,
+            cursor: 'pointer',
             fontStyle: 'normal',
             fontWeight: 600,
             color: activeKeyStr === 'balances' ? '#F1F1F2' : '#06FCB2',
@@ -87,10 +90,11 @@ export default function Index() {
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: activeKeyStr === 'fees' ? '2px solid #06FCB2' : '',
+              borderBottom: activeKeyStr === 'fees' ? '2px solid #232323' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
+              cursor: 'pointer',
               fontWeight: 600,
               color: activeKeyStr === 'fees' ? '#F1F1F2' : '#06FCB2',
               padding: '12px 0 12px',
@@ -103,10 +107,12 @@ export default function Index() {
       </Row>
       <div
         style={{
-          border: '1px solid #1C274F',
+          border: '1px solid #232323',
           height: 400,
           borderBottom: '',
           padding: 16,
+          margin: 0,
+          marginTop: 16,
         }}
       >
         {activeKeyStr && activeKeyStr === 'orders' ? <OpenOrdersTab /> : null}

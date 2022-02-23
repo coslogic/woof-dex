@@ -116,8 +116,8 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
     >
       <Title
         style={{
-          borderTop: '1px solid #1C274F',
-          borderBottom: '1px solid #1C274F',
+          borderTop: '1px solid #232323',
+          borderBottom: '1px solid #232323',
           padding: '12px 0 12px 16px',
           color: 'rgba(241, 241, 242, 0.75)',
           fontSize: 14,
@@ -281,8 +281,8 @@ const MarkPriceComponent = React.memo(
       <MarkPriceTitle
         justify="center"
         style={{
-          borderTop: '1px solid #1C274F',
-          borderBottom: '1px solid #1C274F',
+          borderTop: '1px solid #232323',
+          borderBottom: '1px solid #232323',
           fontSize: 16,
         }}
       >

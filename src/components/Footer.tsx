@@ -8,7 +8,10 @@ const { useBreakpoint } = Grid;
 const footerElements = [
   { description: 'Discord', link: helpUrls.discord },
   { description: 'Telegram', link: helpUrls.telegram },
+  { description: 'Twitter', link: helpUrls.twitter },
   { description: 'GitHub', link: helpUrls.github },
+  { description: 'Website', link: helpUrls.website },
+  { description: 'Shop', link: helpUrls.shop },
   {
     description: 'Education',
     link: helpUrls.educationResources,
@@ -27,7 +30,7 @@ export const CustomFooter = () => {
         background: 'transparent',
       }}
     >
-      <Row align="middle" gutter={[16, 4]}>
+      <Row align="middle" gutter={[32, 4]}>
         {!smallScreen && (
           <>
             <Col flex="auto" />

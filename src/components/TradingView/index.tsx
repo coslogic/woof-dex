@@ -138,5 +138,5 @@ export const TVChartContainer = () => {
     });
   }, [chartProperties, datafeed, defaultProps.autosize, defaultProps.clientId, defaultProps.containerId, defaultProps.fullscreen, defaultProps.interval, defaultProps.libraryPath, defaultProps.studiesOverrides, defaultProps.theme, defaultProps.userId, marketName]);
 
-  return <div style={{ height: 640, width: "95%", margin: "auto", border: "1px solid rgb(238, 238, 238, 0.2)"}} id={defaultProps.containerId} className={'TVChartContainer'} />;
+  return <div style={{ height: 640, width: "97%", margin: "auto", border: "1px solid rgb(238, 238, 238, 0.2)", borderRadius: "5px"}} id={defaultProps.containerId} className={'TVChartContainer'} />;
 };

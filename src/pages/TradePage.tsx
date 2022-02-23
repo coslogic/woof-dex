@@ -163,7 +163,7 @@ function TradePageInner() {
         <Row
           align="middle"
           style={{ paddingLeft: 5, paddingRight: 5, height: 64 }}
-          gutter={16}
+          gutter={32}
         >
           <Col>
             <MarketSelector
@@ -276,7 +276,7 @@ function MarketSelector({
               style={{
                 padding: '10px',
                 // @ts-ignore
-                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : '#11042C',
+                backgroundColor: i % 2 === 0 ? '#232323' : '#11042C',
               }}
             >
               <Row>
@@ -307,7 +307,7 @@ function MarketSelector({
               style={{
                 padding: '10px',
                 // @ts-ignore
-                backgroundColor: i % 2 === 0 ? 'rgb(39, 44, 61)' : '#11042C',
+                backgroundColor: i % 2 === 0 ? '#232323' : '#11042C',
                 opacity: 0.8,
               }}
             >
