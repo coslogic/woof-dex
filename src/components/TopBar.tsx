@@ -38,7 +38,7 @@ const MENU = [
   },
   {
     'title': 'SWAP',
-    'link': 'https://swap.woofsolana.io/swap/',
+    'link': 'https://swap.woofsolana.io',
   },
 /*   {
     'title': 'DASHBOARD',
