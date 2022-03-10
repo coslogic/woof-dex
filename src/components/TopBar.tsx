@@ -49,11 +49,11 @@ const MENU = [
     'child': [
       {
         'title': 'Pools',
-        'link': 'https://swap.woofsolana.io/pools/',
+        'link': '#',
       },
       {
         'title': 'Add Liquidity',
-        'link': 'https://swap.woofsolana.io/liquidity/',
+        'link': '#',
       },
     ]
   },
